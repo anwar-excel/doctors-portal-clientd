@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import AppointmentBanner from '../AppointmentBanner/AppointmentBanner';
 import Services from '../Services/Services';
 import Navigation from '../../Shared/Navigation/Navigation';
-import Appointment from '../../Appointment/Appointment/Appointment';
+import Banner from '../Banner/Banner';
+
 
 
 const Home = () => {
@@ -11,8 +12,10 @@ const Home = () => {
         <div>
 
             <Navigation></Navigation>
-            <Appointment></Appointment>
-            <Link to='/service'>Service</Link>
+            <Banner></Banner>
+            <Services></Services>
+            <AppointmentBanner></AppointmentBanner>
+
         </div>
     );
 };
