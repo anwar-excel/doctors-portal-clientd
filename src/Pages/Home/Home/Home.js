@@ -9,8 +9,7 @@ import Appointment from '../../Appointment/Appointment/Appointment';
 const Home = () => {
     return (
         <div>
-            <AppointmentBanner></AppointmentBanner>
-            <Services></Services>
+
             <Navigation></Navigation>
             <Appointment></Appointment>
             <Link to='/service'>Service</Link>
